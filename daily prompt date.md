@@ -35,7 +35,6 @@ _%>
 date: <% date.format("YYYY-MM-DD") %>
 dayOfWeek: <% date.format("dddd") %>
 ---
-
 # <% date.format("DD MMMM YYYY, dddd") %>
 [[<% previousDate.format('YYYY-MM-DD') %>|←]] | [[<% mondayOfWeek.format('YYYY-MM-DD')+' week' %>|Неделя]] | [[<% nextDate.format('YYYY-MM-DD') %>|→]]
 
