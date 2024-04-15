@@ -8,8 +8,8 @@ const nextMondayFormat = nextMonday.format(dateFormat);
 const filename = monday.format(dateFormat) + " week";
 await tp.file.rename(filename);
 _%>
-[[<% previousMondayFormat %> week|← <% previousMondayFormat %> week]] | [[<% nextMondayFormat %> week|<% nextMondayFormat %> week →]]
 #weekly 
+[[<% previousMondayFormat %> week|← <% previousMondayFormat %> week]] | [[<% nextMondayFormat %> week|<% nextMondayFormat %> week →]]
 
 <%*
 for(let i = 0; i < 5; i++) {
@@ -23,3 +23,5 @@ for(let i = 0; i < 5; i++) {
   tR += "\n\n\n";
 }
 %>
+
+[[<% previousMondayFormat %> week|← <% previousMondayFormat %> week]] | [[<% nextMondayFormat %> week|<% nextMondayFormat %> week →]]
